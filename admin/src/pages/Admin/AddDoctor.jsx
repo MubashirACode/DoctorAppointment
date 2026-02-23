@@ -159,7 +159,7 @@ export const AddDoctor = () => {
                   required
                   className="w-full border border-gray-300 rounded p-2"
                 >
-                  {["General physician", "Gynecologist", "Dermatologist", "Pediatrician", "Neurologist", "Gastroenterologist"].map((spec) => (
+                  {["General physician", "Gynecologist", "Dermatologist", "Pediatricians", "Neurologist", "Gastroenterologist"].map((spec) => (
                     <option key={spec} value={spec}>{spec}</option>
                   ))}
                 </select>
